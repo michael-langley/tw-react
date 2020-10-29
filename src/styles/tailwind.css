@@ -1,9 +1,6 @@
 @import url('https://rsms.me/inter/inter.css');
 @tailwind base;
 @tailwind components;
-@import './landing-page.css';
-@import './marketing-page-card.css';
-@import './tab.css';
 
 body,
 html {
