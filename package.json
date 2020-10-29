@@ -1,13 +1,13 @@
 {
-  "name": "react-component-library",
-  "version": "1.0.0",
+  "name": "ml-tw-components-react",
+  "version": "0.1.0",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
     "build"
   ],
   "types": "build/index.d.ts",
-  "description": "A skeleton to create your own React component library using Rollup, TypeScript, Sass and Storybook",
+  "description": "A React component library built with tailwind",
   "scripts": {
     "build:tailwind": "tailwind build src/styles/tailwind.css -o src/styles/index.css",
     "prebuild": "NODE_ENV=production npm run build:tailwind",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HarveyD/react-component-library.git"
+    "url": "git+https://github.com/michael-langley/tw-react"
   },
   "keywords": [
     "React",
@@ -29,15 +29,14 @@
     "Library",
     "Rollup",
     "Typescript",
-    "Sass",
-    "Storybook"
+    "Tailwind"
   ],
-  "author": "Harvey Delaney",
+  "author": "Michael Langley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HarveyD/react-component-library/issues"
+    "url": "https://github.com/michael-langley/tw-react/issues"
   },
-  "homepage": "https://github.com/HarveyD/react-component-library#readme",
+  "homepage": "https://github.com/michael-langley/tw-react/#readme",
   "peerDependencies": {
     "react": ">=17.0.1",
     "react-dom": ">=17.0.1"
