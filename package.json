@@ -70,6 +70,9 @@
   },
   "dependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",
+    "dayjs": "^1.9.4",
+    "react-day-picker": "^7.4.8",
+    "react-helmet": "^6.1.0",
     "tailwindcss": "^1.9.6",
     "tailwindcss-spinner": "^1.2.0"
   }
