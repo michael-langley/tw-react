@@ -1,6 +1,6 @@
 {
   "name": "ml-tw-components-react",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [

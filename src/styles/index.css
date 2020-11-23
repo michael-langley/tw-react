@@ -2478,10 +2478,10 @@ input:checked ~ .toggle__dot {
   background-color: rgba(217, 226, 236, var(--bg-opacity));
 }
 
-.bg-secondary-200{
+.bg-secondary-500{
   --bg-opacity: 1;
-  background-color: #BCCCDC;
-  background-color: rgba(188, 204, 220, var(--bg-opacity));
+  background-color: #627D98;
+  background-color: rgba(98, 125, 152, var(--bg-opacity));
 }
 
 .bg-teal-vivid-500{

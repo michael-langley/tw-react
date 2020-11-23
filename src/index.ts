@@ -53,6 +53,7 @@ import Pagination from './global/Pagination/Pagination';
 import Rating from './global/Rating/Rating';
 import SEO from './global/SEO/SEO';
 import Spinner from './global/Spinner/Spinner';
+import HorizontalDotsLoader from './global/Spinner/HorizontalDots';
 import Tab from './global/Tabs/Tab';
 import TabBar from './global/Tabs/TabBar';
 import TabView from './global/Tabs/TabView';
@@ -60,7 +61,7 @@ import SelectableTile from './global/Tile/SelectableTile';
 import FormSection from './global/TwoColumnForm/FormSection';
 import LeftColumn from './global/TwoColumnForm/LeftColumn';
 import RightColumn from './global/TwoColumnForm/RightColumn';
-//import * as Icons from './icons';
+import * as Icons from './icons';
 //import * as Illustrations from './illustrations';
 import useComparePrevious from './component-hooks/useComparePrevious';
 import usePrevious from './component-hooks/usePrevious';
@@ -128,8 +129,9 @@ export {
   FormSection,
   LeftColumn,
   RightColumn,
-  //Icons,
+  Icons,
   //Illustrations,
   useComparePrevious,
   usePrevious,
+  HorizontalDotsLoader,
 };
