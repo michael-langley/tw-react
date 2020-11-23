@@ -2,6 +2,9 @@ const { colors } = require('tailwindcss/defaultTheme');
 module.exports = {
   purge: ['src/**/*.js', 'src/**/*.jsx', 'src/**/*.ts', 'src/**/*.tsx'],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       spacing: {
         30: '7.5rem',
@@ -196,6 +199,7 @@ module.exports = {
   plugins: [
     require('@tailwindcss/custom-forms'),
     require('tailwindcss-spinner')(),
+    require('@tailwindcss/typography'),
     function ({ addVariant }) {
       addVariant('important', ({ container }) => {
         container.walkRules((rule) => {
