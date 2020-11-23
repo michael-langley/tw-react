@@ -38,3 +38,4 @@ export { default as Search } from './Search';
 export { default as Tag } from './Tag';
 export { default as Travel } from './Travel';
 export { default as HorizontalDots } from './HorizontalDots';
+export { default as InstagramIcon } from './InstagramIcon';
