@@ -20,7 +20,7 @@ const TextArea = (props: Omit<Props, 'inputMode'>) => {
     handleInternalValue,
   });
   const inputClasses = cx(
-    'flex items-center form-input placeholder-secondary-300 w-full border border-secondary-100 shadow-inner rounded mt-1 hover:border-secondary-200 focus:outline-none focus:shadow-outline',
+    'flex items-center form-input placeholder-gray-500 w-full border border-gray-100 shadow-inner rounded mt-1 hover:border-gray-200 focus:outline-none focus:shadow-outline',
     className,
   );
 

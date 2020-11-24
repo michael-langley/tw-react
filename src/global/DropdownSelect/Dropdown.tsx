@@ -42,7 +42,7 @@ const Dropdown = (props: Props) => {
     highlightedIndex,
   } = useDropdown(passedProps);
   // Styles
-  const inputClasses = cx('focus:outline-none placeholder-secondary-300 flex-1 overflow-hidden py-2 px-1', inputClass);
+  const inputClasses = cx('focus:outline-none placeholder-gray-500 flex-1 overflow-hidden py-2 px-1', inputClass);
 
   const dropdownContainerClasses = cx(
     'absolute right-0 w-full mt-1 p-2 bg-white rounded shadow-md max-h-3xs sm:max-h-2xs overflow-scroll focus:outline-none focus:shadow-outline',

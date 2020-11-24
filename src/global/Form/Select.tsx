@@ -13,7 +13,7 @@ const Select = (props: Props) => {
   const { options, selected = '', className, handleChange = () => {}, ...rest } = props;
 
   const selectClasses = cx(
-    'form-select block w-full placeholder-secondary-300 border border-secondary-100 shadow-inner rounded hover:border-secondary-200 focus:outline-none focus:shadow-outline',
+    'form-select block w-full placeholder-gray-500 border border-gray-100 shadow-inner rounded hover:border-gray-200 focus:outline-none focus:shadow-outline',
     className,
   );
 
