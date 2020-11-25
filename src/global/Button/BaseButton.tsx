@@ -10,7 +10,7 @@ export interface BaseButtonProps extends React.ButtonHTMLAttributes<HTMLButtonEl
 const BaseButton = (props: BaseButtonProps) => {
   const { handleClick, children, className, disabled, ...rest } = props;
   const classes = cx(
-    `py-2 px-4 text-sm sm:text-base capitalize leading-none tracking-wide
+    `px-4 py-2 text-sm sm:text-base capitalize leading-none tracking-wide
     rounded-lg shadow-md  focus:outline-none focus:shadow-outline`,
     className,
     {

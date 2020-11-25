@@ -10,7 +10,7 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 const OutlineButton = (props: Props) => {
   const { handleClick, children, className, ...rest } = props;
   const classes = cx(
-    `px-2 py-1 text-sm sm:text-base leading-none cursor-pointer hover:grow-xs bg-transparent border border-gray-300 text-primary-800 leading-tight capitalize rounded-lg`,
+    `p-2 text-sm sm:text-base leading-none cursor-pointer hover:grow-xs bg-transparent border border-gray-300 text-primary-800 leading-tight capitalize rounded-lg`,
     className,
   );
   return (

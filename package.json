@@ -1,6 +1,6 @@
 {
   "name": "ml-tw-components-react",
-  "version": "0.3.6",
+  "version": "0.3.10",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
@@ -9,7 +9,7 @@
   "types": "build/index.d.ts",
   "description": "A React component library built with tailwind",
   "scripts": {
-    "build:tailwind": "tailwind build src/styles/tailwind.css -o src/styles/index.css",
+    "build:tailwind": "npx tailwindcss-cli@latest build src/styles/tailwind.css -o src/styles/index.css",
     "prebuild": "NODE_ENV=production npm run build:tailwind",
     "build": "rollup -c",
     "test": "jest",
@@ -70,10 +70,12 @@
   "dependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",
     "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^9.8.6",
     "dayjs": "^1.9.4",
+    "postcss": "^7.0.35",
     "react-day-picker": "^7.4.8",
     "react-helmet": "^6.1.0",
-    "tailwindcss": "^1.9.6",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
     "tailwindcss-spinner": "^1.2.0"
   }
 }
